@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF8AD2731FD8DCA50015DB5D /* links.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF8AD2721FD8DCA50015DB5D /* links.txt */; };
 		EF990CCE1FAB1CDA00F25F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF990CCD1FAB1CDA00F25F46 /* AppDelegate.swift */; };
 		EF990CD01FAB1CDA00F25F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF990CCF1FAB1CDA00F25F46 /* ViewController.swift */; };
 		EF990CD31FAB1CDA00F25F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF990CD11FAB1CDA00F25F46 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		EF990CD81FAB1CDA00F25F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF990CD61FAB1CDA00F25F46 /* LaunchScreen.storyboard */; };
 		EF990CE31FAB1CDB00F25F46 /* TestCompileSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF990CE21FAB1CDB00F25F46 /* TestCompileSpeedTests.swift */; };
 		EF990CEE1FAB1CDB00F25F46 /* TestCompileSpeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF990CED1FAB1CDB00F25F46 /* TestCompileSpeedUITests.swift */; };
+		EF990CFE1FAC0EEB00F25F46 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF990CFD1FAC0EEB00F25F46 /* Then.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF8AD2721FD8DCA50015DB5D /* links.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = links.txt; sourceTree = "<group>"; };
+		EF8AD2741FD8DD470015DB5D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EF990CCA1FAB1CDA00F25F46 /* TestCompileSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCompileSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF990CCD1FAB1CDA00F25F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF990CCF1FAB1CDA00F25F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		EF990CE91FAB1CDB00F25F46 /* TestCompileSpeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCompileSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF990CED1FAB1CDB00F25F46 /* TestCompileSpeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCompileSpeedUITests.swift; sourceTree = "<group>"; };
 		EF990CEF1FAB1CDB00F25F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF990CFD1FAC0EEB00F25F46 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +79,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF8AD2711FD8DC6B0015DB5D /* 文档 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8AD2721FD8DCA50015DB5D /* links.txt */,
+			);
+			path = "文档";
+			sourceTree = "<group>";
+		};
 		EF990CC11FAB1CDA00F25F46 = {
 			isa = PBXGroup;
 			children = (
+				EF8AD2741FD8DD470015DB5D /* README.md */,
 				EF990CCC1FAB1CDA00F25F46 /* TestCompileSpeed */,
 				EF990CE11FAB1CDB00F25F46 /* TestCompileSpeedTests */,
 				EF990CEC1FAB1CDB00F25F46 /* TestCompileSpeedUITests */,
@@ -97,6 +111,8 @@
 		EF990CCC1FAB1CDA00F25F46 /* TestCompileSpeed */ = {
 			isa = PBXGroup;
 			children = (
+				EF8AD2711FD8DC6B0015DB5D /* 文档 */,
+				EF990CFD1FAC0EEB00F25F46 /* Then.swift */,
 				EF990CCD1FAB1CDA00F25F46 /* AppDelegate.swift */,
 				EF990CCF1FAB1CDA00F25F46 /* ViewController.swift */,
 				EF990CD11FAB1CDA00F25F46 /* Main.storyboard */,
@@ -232,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8AD2731FD8DCA50015DB5D /* links.txt in Resources */,
 				EF990CD81FAB1CDA00F25F46 /* LaunchScreen.storyboard in Resources */,
 				EF990CD51FAB1CDA00F25F46 /* Assets.xcassets in Resources */,
 				EF990CD31FAB1CDA00F25F46 /* Main.storyboard in Resources */,
@@ -260,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF990CD01FAB1CDA00F25F46 /* ViewController.swift in Sources */,
+				EF990CFE1FAC0EEB00F25F46 /* Then.swift in Sources */,
 				EF990CCE1FAB1CDA00F25F46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,9 +445,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 48X32H492E;
+				DEVELOPMENT_TEAM = 2HSNL7L4CQ;
 				INFOPLIST_FILE = TestCompileSpeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.tuhu.TestCompileSpeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -442,9 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 48X32H492E;
+				DEVELOPMENT_TEAM = 2HSNL7L4CQ;
 				INFOPLIST_FILE = TestCompileSpeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.tuhu.TestCompileSpeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

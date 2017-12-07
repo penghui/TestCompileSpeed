@@ -90,6 +90,7 @@
 		EF990CC11FAB1CDA00F25F46 = {
 			isa = PBXGroup;
 			children = (
+				EF8AD2711FD8DC6B0015DB5D /* 文档 */,
 				EF8AD2741FD8DD470015DB5D /* README.md */,
 				EF990CCC1FAB1CDA00F25F46 /* TestCompileSpeed */,
 				EF990CE11FAB1CDB00F25F46 /* TestCompileSpeedTests */,
@@ -111,7 +112,6 @@
 		EF990CCC1FAB1CDA00F25F46 /* TestCompileSpeed */ = {
 			isa = PBXGroup;
 			children = (
-				EF8AD2711FD8DC6B0015DB5D /* 文档 */,
 				EF990CFD1FAC0EEB00F25F46 /* Then.swift */,
 				EF990CCD1FAB1CDA00F25F46 /* AppDelegate.swift */,
 				EF990CCF1FAB1CDA00F25F46 /* ViewController.swift */,
